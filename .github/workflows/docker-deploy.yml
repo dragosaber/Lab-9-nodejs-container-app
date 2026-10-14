@@ -25,7 +25,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/lab-9-node-app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/Lab-9-nodejs-container-app:latest
           
   deploy:
     runs-on: ubuntu-latest
