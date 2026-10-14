@@ -2,7 +2,7 @@ name: CI/CD for Node.js App
 on:
   push:
     branches:
-      - main # Trigger workflow on pushes to main branch
+      - main # Triggers the workflow on pushes to main branch
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
